@@ -1,5 +1,4 @@
 .container {
-  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,17 +6,37 @@
 }
 
 .wrapper {
-  border: 1px solid black;
+  border: 1px solid rgb(31, 22, 22);
+  border-radius:8px;
   padding: 10px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  box-shadow: 10px 10px 5px rgba(144, 150, 147, 0.329);
 }
 
 .valueContainer {
   display: flex;
-  border-bottom: 1px solid black;
-  margin-bottom:15px;
+  border: 1px solid black;
+  border-radius:5px;
+  margin:15px;
+  width:160px;
+  flex-direction: column;
 }
 
 .key {
-  margin-right: 100px;
-    flex:1
+   color: rgb(211, 37, 37);
+   background-color: rgba(237, 197, 148, 0.5);
+   border-bottom: 1px solid black;
+   padding:10px;
+   font-size:18px;
+}
+
+.value{
+  padding:10px;
+  font-size:16px;
+}
+
+.even{
+  color:rgb(14, 114, 67)
 }
